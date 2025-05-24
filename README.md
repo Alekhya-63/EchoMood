@@ -12,3 +12,6 @@ EchoMood is a lightweight, browser-based music discovery app that matches your c
 - 🔗 External Playback: Clickable links to play tracks on Spotify.
 
 The web app has been successfully hosted on Azure. You can access it using the following link: https://echoazstorage.z20.web.core.windows.net/
+
+Web App: https://github.com/user-attachments/assets/ec82600b-a5f4-4008-ba48-4a9a6350c192
+
