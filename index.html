@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoMood - MoodTunes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EchoMood: MoodTunes</h1>
+        <p>Select your current mood to get music recommendations!</p>
+        <div id="mood-selector">
+            <div class="mood-btn-group">
+                <button class="mood-btn" data-mood="happy">😊</button>
+                <div class="mood-label">Happy</div>
+            </div>
+            <div class="mood-btn-group">
+                <button class="mood-btn" data-mood="sad">😢</button>
+                <div class="mood-label">Sad</div>
+            </div>
+            <div class="mood-btn-group">
+                <button class="mood-btn" data-mood="energetic">⚡</button>
+                <div class="mood-label">Energetic</div>
+            </div>
+            <div class="mood-btn-group">
+                <button class="mood-btn" data-mood="relaxed">🌙</button>
+                <div class="mood-label">Relaxed</div>
+            </div>
+            <div class="mood-btn-group">
+                <button class="mood-btn" data-mood="romantic">💕</button>
+                <div class="mood-label">Romantic</div>
+            </div>
+        </div>
+        <div id="tracks-container">
+            <!-- Music tracks will appear here -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
